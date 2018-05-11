@@ -1,13 +1,12 @@
 {
-  "name": "almundo",
+  "name": "Middleware",
   "version": "1.0.0",
-  "description": "FE Almundo API",
+  "description": "simple API, kong gateway, microservices interaction",
   "main": "main.js",
   "scripts": {
     "test": "test",
     "build": "babel src -s -D -d dist",
-    "start:prod": "npm run build && node dist",
-    "start:dev": "npm run build && node dist"
+    "start": "npm run build && node dist"
   },
   "author": "Carlos Gonzalez",
   "license": "ISC",

@@ -1,7 +1,7 @@
 import {Rest} from 'express-restful-es6';
 import Example from '../models/example';
 
-@Rest('/examples/example/')
+@Rest('/examples/example')
 class exampleController {
 
   constructor() {
