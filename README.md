@@ -45,4 +45,4 @@ Step 5
 
 Test the URL of the service through the API Gateway   
 
-http://localhost:8001/apis/example-service
+http://localhost:8000/apis/example-service
